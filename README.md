@@ -1,6 +1,7 @@
 # CUMT-CampusDaily-auto-submit
 适用于中国矿业大学晨午检自动打卡，妈妈再也不用担心我忘记打卡了
-@[TOC](CUMT今日校园晨午检自动打卡)
+
+# CUMT今日校园晨午检自动打卡
 
 >寒假就有这个打算了，但在家太懒了，懒得弄，在学校上网课太无聊了，就基于子墨大佬的[Github项目](https://github.com/ZimoLoveShuang/auto-submit)改了改，用了一天终于搞完了，弄成了矿大专属的，现在对矿大的学生来说是傻瓜式操作了。
 
