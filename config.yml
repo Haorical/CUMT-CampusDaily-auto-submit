@@ -1,0 +1,64 @@
+login:
+  api: "http://***.***.***.***:8080/wisedu-unified-login-api-v1.0/api/login" #因为是自己的服务器不方便公开,可以自己搭建api，或者加我qq：2507582949
+users:
+  - user:
+      username: '12201330' #把这里改成自己的学号
+      password: '********' #改成自己的密码（今日校园的密码==融合门户密码==矿小助密码（官网 kxz.atcumt.com 矿大人自己的app）
+      address: 中国江苏省徐州市泉山区矿山路
+cpdaily:
+  defaults:
+    - default:
+        title: 你的学生类别
+        type: 2
+        value: 本科生
+    - default:
+        title: 你的生源地 
+        type: 2
+        value: 内地
+    - default:
+        title: 你今天晨检体温是多少
+        type: 2
+        value: 36~37.2℃（正常体温）
+    - default:
+        title: 你今天午检体温是多少
+        type: 2
+        value: 36~37.2℃（正常体温）
+    - default:
+        title: 你今天是为疑似/确诊新冠肺炎患者？
+        type: 2
+        value: 否
+    - default:
+        title: 你今天是否与疑似/确诊新冠肺炎患者有密切接触？
+        type: 2
+        value: 否
+    - default:
+        title: 你今天是否有咳嗽、乏力等症状
+        type: 2
+        value: 否
+    - default:
+        title: 你今天是否有咳嗽、乏力等症状
+        type: 2
+        value: 否
+    - default:
+        title: 你是否被隔离，如果被隔离，请选择你的隔离方式
+        type: 2
+        value: 否
+    - default:
+        title: 目前是否在学校
+        type: 2
+        value: 是
+    - default:
+        title: 目前你所在城市
+        type: 1
+        value: 江苏省/徐州市/铜山区
+    - default:
+        title: 今天是否有跨区域行程异动（注：指跨县及以上行政区域，徐州市内各区之间的交通活动不用填报）
+        type: 2
+        value: 否
+    - default:
+        title: 本人是否承诺以上所填报的全部内容属实、准确，不存在任何隐瞒、不实和遗漏之处 
+        type: 2
+        value: 是
+
+Info:
+  ServerChan: SCT17421************2fEcM92k2jq #server酱，这个可有可无，就是把打卡成功的信息发到微信上，需要的话到官网自行获得 key
