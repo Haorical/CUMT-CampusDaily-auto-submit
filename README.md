@@ -58,4 +58,4 @@ pip install -r requirements.txt
 **如果此项目侵犯了您或者您公司的权益，请立即联系我删除**
 
 如果你有不懂的,或者需要api不会搭建的,欢迎联系我,我会看心情给你解答（狗头）
->邮箱：haorical@outlook.com
+>邮箱：ikaekkk@dingtalk.com
